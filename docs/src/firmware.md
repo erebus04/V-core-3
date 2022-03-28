@@ -5,6 +5,12 @@ hide:
   # - toc
 ---
 
+## RatOS
+RatOS is developed and maintained by Mikkel Schmidt (a member of Rat Rig's Beta/Dev team). It combines the power of the Klipper firmware, as well as several other open-source projects, to provide a stable and easy-to-use operating system for all your printing needs.
+![](/assets/ratos_logo.png)
+
+<center>[:material-link-box-variant: Official RatOS documentation](https://os.ratrig.com/){: .md-button .md-button--primary}</center>
+
 ## Duet - RepRap Firmware
 
 > This guide was prepared against the RepRap Firmware [version 3.2.2](https://github.com/Duet3D/RepRapFirmware/releases/tag/3.2.2){target=_blank}.
@@ -58,7 +64,7 @@ Define where the nozzle is when hitting an endstop:
 
 Configure endstops, here the X endstop defines *Xmin* and the Y endstop *Ymax*
 
-{{ gcode("firmware/Duet_RRF/config.g", 37, 40) }}
+{{ gcode("firmware/Duet_RRF/config.g", 37, 39) }}
 
 Define lead screw position for true bed leveling
 
@@ -66,7 +72,7 @@ Define lead screw position for true bed leveling
 
     Those values will be different for bigger printers, take a close look how those are defined `X-4.5:150:304.5 Y-4.52:305:-4.52` meaning that the first lead is at `X-4.5` and `-4.52`, the second at `X150`, `Y305` and so on. Naturally the first (left) lead screw position is the same for all size variants but, taking the second as an example it will land at `X250`, `Y505` for the 500x500x500 version of V-Core 3.
 
-{{ gcode("firmware/Duet_RRF/config.g", 41, 43) }}
+{{ gcode("firmware/Duet_RRF/config.g", 40, 42) }}
 
 !!! warning "Caution!"
 
@@ -74,7 +80,7 @@ Define lead screw position for true bed leveling
 
     The actuall PID settings are commented out here only to show where those can be set.
 
-{{ gcode("firmware/Duet_RRF/config.g", 45, 53) }}
+{{ gcode("firmware/Duet_RRF/config.g", 44, 52) }}
 
 Configure the hotend fan and layer fan.
 
@@ -82,11 +88,11 @@ Configure the hotend fan and layer fan.
 
     For the older Duet3 6HC you can use the `M950 F0 C"out7" Q500` and `M950 F1 C"out4" Q500` ports for fans
 
-{{ gcode("firmware/Duet_RRF/config.g", 55, 59) }}
+{{ gcode("firmware/Duet_RRF/config.g", 54, 58) }}
 
 Define the Tool (which is the print head):
 
-{{ gcode("firmware/Duet_RRF/config.g", 61, 68) }}
+{{ gcode("firmware/Duet_RRF/config.g", 60, 67) }}
 
 Configure the chosen carriage, the example bellow is to EVA 2 / BMG with an E3D V6 hotend.
 
@@ -96,7 +102,7 @@ Configure the chosen carriage, the example bellow is to EVA 2 / BMG with an E3D 
     
     The actuall PID settings are commented out here only to show where those can be set.
 
-{{ gcode("firmware/Duet_RRF/config.g", 71, 77) }}
+{{ gcode("firmware/Duet_RRF/config.g", 70, 76) }}
 
 Z-probe setting, **uncomment** the lines with your probe of choice:
 
@@ -104,11 +110,11 @@ Z-probe setting, **uncomment** the lines with your probe of choice:
 
     If you plan to use BLTouch you will also need to uncomment a few lines in `homeall.g` and `homez.g`
 
-{{ gcode("firmware/Duet_RRF/config.g", 79, 86) }}
+{{ gcode("firmware/Duet_RRF/config.g", 78, 85) }}
 
 Finally you can calibrate pressure advance, read more about it [here](https://duet3d.dozuki.com/Wiki/Pressure_advance){target="_blank"}.
 
-{{ gcode("firmware/Duet_RRF/config.g", 89) }}
+{{ gcode("firmware/Duet_RRF/config.g", 88) }}
 
 ### homeall.g
 
@@ -147,8 +153,3 @@ This file defines the sequence of actions for the printer to take on the `G28` -
     Required only for BLTouch
 
 {{ gcode("firmware/Duet_RRF/retractprobe.g") }}
-
-
-## RatOS - Klipper Firmware
-
-Please refer to the [official RatOS documentation](https://os.ratrig.com/).

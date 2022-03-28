@@ -95,43 +95,28 @@ While previous V-Core versions, like many other printers on the market, relied s
 
 ![](assets/pillow_block.png)
 
+
 ## Customization
 
 - [x] Available both as a complete kit and a configurable kit (for those who want to select their own electronics)
 - [x] Configurable options include LDO motors, Keenovo Heatpads, and multiple controller board options (from Duet3D, SKR, etc) 
 - [x] 3 build volumes available as standard option: 300, 400 and 500 mm3
-
-
-![](assets/sizes.png)
-
-| V-Core 3 variant| Build Volume (mm)|External dimensions (mm)*|  
-| ----------- | ------------------- | --------------------- |
-| 300  |  300x300x300  | 518x583x560 |
-| 400  |  400x400x400  | 618x683x660 |
-| 500  |  500x500x500  | 718x783x760 |
-
-*Z height corresponds to frame height. Your extruder head will protrude slightly above the frame, and you will need extra Z room for filament feed. For the frame version with a top chamber, add 245mm to the given Z height.
-
-<p>&nbsp;</p>
-
 - [x] Full End Stop solutions
 - [x] EVA 2 Carriage System provides mounts for most popular extruder and hot end choices on the market (Bowden, BMG, Titan, Aero, Hemera, and more to come!)
-- [x] Shipping with EVA 2.3.0 (since June 1st 2021)
+- [x] Shipping with EVA 2.4.2 (since Feb 2022)
 
-![](assets/EVA.png)
+![](assets/feature_eva.png)
 
 
 !!! tip end "What is EVA?"
     EVA is an independently developed and maintained project that aims to be a single platform for many extrusion types.
-
-    **Copperhead** and **Bondtech LGX** support incoming!
 
     Note that not all print head types (due to their physical dimensions) can achieve the full 300x300 print space.
 
 <img align="left" alt="EVA Logo" width="200" src="assets/eva_logo.png">
 EVA 2 is the next iteration of the EVA platform with which V-Core 3 is fully compatible. Most vivid improvements since the last iteration is the improved front belt clamp feature (no more zip ties!), improved contribution system, more ease of assembly, modular X endstop system, dedicated cable paths and shrouds (for ascetics).
 
-Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://main.eva-3d.page/)
+Read more about EVA on: [EVA 2 Documentation](https://main.eva-3d.page/)
 
 
 ## Support
@@ -157,6 +142,7 @@ Read more about EVA on: [:octicons-octoface-16: EVA 2 Documentation](https://mai
 
 
 ![](assets/bed_arm.png)
+
 
 ## Convenience
 
@@ -204,11 +190,18 @@ The V-Core 3 is the perfect printer for advanced users who like to tweak and tin
 - [x] Vast catalog of stand-alone parts available for infinite upgradeability: screws, nuts, connectors, brackets, pulleys, belts, electronics, etc
 - [x] For some inspiration, check out the <a href="https://photos.app.goo.gl/kfevYUU9f1RaxHxh9" target="_blank">V-Core 3 Gallery</a> with builds from users worldwide
 
-## Sample Prints
 
-![](assets/prints.jpg)
+## Dimensions
+![](assets/dimensions.png)
 
-![](assets/tree.jpg)
+
+## Sample Prints / Parts
+These images showcase 3D prints produced by V-Core 3 machines belonging to members of our community. Clicking any image will open the full size version.
+
+[![](/assets/samples/01_thumb.png)](/assets/samples/01.png){ target=_blank }
+[![](/assets/samples/02_thumb.png)](/assets/samples/02.png){ target=_blank }
+[![](/assets/samples/03_thumb.png)](/assets/samples/03.png){ target=_blank }
+[![](/assets/samples/04_thumb.png)](/assets/samples/04.png){ target=_blank }
 
 ## Acknowledgments
 
@@ -229,10 +222,13 @@ As an Open-source project, the V-Core 3 design is the result of prolonged brains
 - Lukas Sinitsch
 - Tomasz Paluszkiewicz
 
-## Licence
+## License
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>
 
+You may share, remix and mod the design. By default, you may not use the design and its derivatives for commercial purposes, but if you request a commercial license from us, we may (and most likely will) grant you one, as long as we deem your goals are aligned with the best interests of the project and its users. 
 
+The spirit of the project is to remove barriers to innovation and focus on pushing the technology, working as a collective, inspiring each other and experimenting with new ideas. We are happy to foster a rich ecosystem of suppliers and services that empowers users by offering them more options and alternatives.
 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+[:material-link-box-variant: Request a Commercial License](https://forms.gle/g8QWjqNmytDGKZLj7){: .md-button .md-button--primary target=_blank }
