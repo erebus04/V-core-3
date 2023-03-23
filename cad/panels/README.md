@@ -1,4 +1,4 @@
-# Enclosure panels
+# Enclosure & Electronics panels
 
 This subdirectory contains the source files for the various panels used on the V-Core 3.
 

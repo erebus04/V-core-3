@@ -20,7 +20,7 @@ If you’re passionate and knowledgeable about 3D Printing, you may be intereste
 
 Beta/Dev users not only get to influence product strategy and design decisions, but also benefit from several awesome perks, like early access to products and discounted prices on all orders. Above everything else, they get to participate in extremely nerdy debates with like-minded people, and witness how those debates materialize over time in products who will be enjoyed by many people.
 
-[:material-facebook: Rat Rig 3D Printer Community](https://www.facebook.com/groups/ratrig3dprintercommunity){: .md-button .md-button--primary}
+[:fontawesome-brands-facebook: Rat Rig 3D Printer Community](https://www.facebook.com/groups/ratrig3dprintercommunity){: .md-button .md-button--primary}
 
 
 ## Unofficial Community on Discord
@@ -31,4 +31,34 @@ Even though this is an unofficial community, over time we’ve found that this i
 
 The discord server is also the primary place to discuss and participate in the ongoing EVA development and testing.
 
-[:material-discord: Rat Rig Community [Unofficial]](https://discord.gg/D62e8XNeYa){: .md-button .md-button--primary}
+[:fontawesome-brands-discord: Rat Rig Community [Unofficial]](https://discord.gg/D62e8XNeYa){: .md-button .md-button--primary}
+
+## Contributions
+
+V-Core 3 users (including a couple of prominent youtubers in the 3D printing space) have been customizing their machines and designing some really cool accessories, jigs and upgrades in the process!
+
+Some ideas have drawn considerable attention and interest, and we're very fortunate as a community that their creators are openly sharing their designs, for everyone to use. In the true spirit of the open-source movement, the hive mind has already taken hold of the project and started the never-ending process of continuous improvement - nothing could make us more excited than witnessing this!
+
+Below we offer a tutorial for users to submit their contributions so they can be reviewed by our team and added directly to the main V-Core 3 Repository, on GitHub.
+
+We invite all existing and future contributors to use this process, so we can have everything in the same place, for everyone's benefit!
+
+Thank you to all contributors for inspiring the community! We're excited to see what everyone else will come up with!
+
+What about you? Do you have any special plans for your machine? 🙂
+
+<center>
+    <div class="videowrapper">
+        <iframe 
+            width="1200"
+            height="700"
+            src="https://www.youtube-nocookie.com/embed/QV2U0goJ6Rg" 
+            frameborder="0"
+            allow="encrypted-media"
+            allowfullscreen
+        >
+        </iframe>
+    </div>
+</center>
+
+&nbsp;
